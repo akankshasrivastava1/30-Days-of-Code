@@ -33,7 +33,7 @@ public class Day_4 {
 		int T = sc.nextInt();
 		for (int i = 0; i < T; i++) {
 			int age = sc.nextInt();
-			Person p = new Person(age);
+			Day_4 p = new Person(age);
 			p.amIOld();
 			for (int j = 0; j < 3; j++) {
 				p.yearPasses();
