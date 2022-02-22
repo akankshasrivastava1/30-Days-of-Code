@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 
-public class Day_4 {
+public class Person {
     private int age;	
   
 	public Person(int initialAge) {
@@ -33,7 +33,7 @@ public class Day_4 {
 		int T = sc.nextInt();
 		for (int i = 0; i < T; i++) {
 			int age = sc.nextInt();
-			Day_4 p = new Person(age);
+			Person p = new Person(age);
 			p.amIOld();
 			for (int j = 0; j < 3; j++) {
 				p.yearPasses();
