@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 
 class Solution{
-    public static void main(String []argh){
+    public static void main(String []args){
        Map<String,Integer> phoneBook = new HashMap<String,Integer>();
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
